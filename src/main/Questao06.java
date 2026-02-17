@@ -26,7 +26,7 @@ public class Questao06 {
         int contagem = 0;
         for (int i = 0; i < numeros.length; i++) {
             
-            System.out.format("Digite o %d numero: ", (i + 1));
+            System.out.format("Digite o %d numero: %n", (i + 1));
             numeros[i] = scanner.nextInt();
             
             if (i > 0) {
